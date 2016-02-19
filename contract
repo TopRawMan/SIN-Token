@@ -46,7 +46,7 @@ contract Token {
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
 }
 
-contract SINCoin is Token {
+contract SIN Coin is Token {
 
     address issuer;
     string public name;
