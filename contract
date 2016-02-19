@@ -55,7 +55,7 @@ contract SIN Coin is Token {
 
     modifier ifissuer { if(issuer == tx.origin) _ }
 
-    function PreVNK(uint256 _initial_amount, string _name, string _symbol, uint8 _decimals) {
+    function SIN Coin(uint256 _initial_amount, string _name, string _symbol, uint8 _decimals) {
         balances[msg.sender] = _initial_amount;
         total_supply = _initial_amount;
         issuer = tx.origin;
